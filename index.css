@@ -1,0 +1,160 @@
+body {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+}
+
+.upperContainer {
+    width: 500px;
+    height: 285px;
+    padding-left: 25px;
+    background: #6943FF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header {
+    font-size: 15px;
+    font-weight: 800;
+    justify-content: center;
+    color: white;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0px 10px;
+    color: white;
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.convertBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#convert-btn {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 130px;
+    color: gray;
+    border: none;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -3px -3px
+    7px #4729bf, 3px 3px 7px #4729bf;
+}
+
+#convert-btn:active {
+    background: white;
+    box-shadow: -3px -3px
+    7px #ffffff inset, 3px
+    3px 7px #ffffff inset;
+    user-select: none;
+    font-size: 18px;
+}
+
+.lowerContainer {
+    width: 521px;
+    background: whitesmoke;
+    border: 2px solid #6943FF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lengthBox {
+    width: 500px;
+    background: white;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0px;
+    border: 1px dashed #B295FF;
+    border-radius: 5px;
+}
+
+.volumeBox {
+    width: 500px;
+    background: white;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0px;
+    border: 1px dashed #B295FF;
+    border-radius: 5px;
+}
+
+.massBox {
+    width: 500px;
+    background: white;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0px;
+    border: 1px dashed #B295FF;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #B295FF;
+    font-weight: bolder;
+}
+
+.outputLength {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.outputVolume {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.outputMass {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#meters-feet {
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+#feet-meters {
+    padding-left: 10px;
+}
+
+#liters-gallons {
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+#gallons-liters {
+    padding-left: 10px;
+}
+
+#kilos-pounds {
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+#pounds-kilos {
+    padding-left: 10px;
+}
